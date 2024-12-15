@@ -70,13 +70,13 @@ ul {
 .central3 {
     width: 58px;
     height: 60px;
+    padding-right: 10px;
 }
 
 .central4 {
     width: 56px;
     height: 60px;
     padding-bottom: 3px;
-    padding-left: 15px;
 }
 
 #call {
