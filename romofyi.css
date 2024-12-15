@@ -1,0 +1,690 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+
+body {
+    font-family: "Poppins", normal, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+.container1 {
+    background-color: #ecf3fc;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.topo_esquerdo {
+    font-size: 22px;
+    width: 320px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones_topo_centro {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.central1 {
+    width: 54px;
+    height: 51px;
+}
+
+.central2 {
+    width: 58px;
+    height: 59px;
+}
+
+.central3 {
+    width: 58px;
+    height: 60px;
+}
+
+.central4 {
+    width: 55px;
+    height: 54px;
+}
+
+#call {
+    padding-right: 10px;
+}
+
+.topodireita {
+    display: flex;
+    padding-left: 0px;
+}
+
+.container2 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.cont_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_email {
+    width: 25px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.linha2 {
+    display: flex;
+}
+
+.centro2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo {
+    width: 250px;
+    height: 75px;
+}
+
+.icone_sacola {
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#botao1 {
+    width: 100px;
+    height: 30px;
+}
+
+#botao1:hover {
+    background-color: #f2c119;
+    color: #183661;
+    cursor: pointer;
+}
+
+.container3 {
+    display: flex;
+    height: 115px;
+    background-color: #183661;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 27px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.linha3 {
+    display: flex;
+    margin-left: 80px;
+    height: 115px;
+}
+
+.yellow {
+    background-color: #f2c119;
+}
+
+
+.barra {
+    padding: 35px;
+    align-items: center;
+    align-content: center;
+}
+
+#pesquisa {
+    border-radius: 25px;
+    border-style: none;
+    width: 500px;
+    height: 50px;
+    margin-right: 120px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.container4 {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1050px;
+    height: 1050px;
+    align-content: center;
+    display: flex;
+}
+
+.trands {
+    font-size: 70px;
+    height: 800px;
+    width: 100%;
+    align-content: center;
+    margin-left: 130px;
+}
+
+#shop {
+    height: 60px;
+    width: 200px;
+}
+
+#shop:hover {
+    background-color: #f2c119;
+    color: #183661;
+    cursor: pointer;
+}
+
+#mulher {
+    height: 870px;
+    width: 1050px;
+}
+
+#muie {
+    height: 1000px;
+    align-items: flex-end;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+#romofyi {
+    color: #183661;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+#t2019 {
+    color: #f2c119;
+    font-size: 200px;
+}
+
+#huge {
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#shop {
+    background-color: #1d37fd;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    width: 290px;
+    height: 80px;
+    font-size: 20px;
+}
+
+#itembloco {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding-left: 0px;
+    list-style-type: none;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 400px;
+    height: 300px;
+    align-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.y {
+    background-color: #f2c119;
+    text-align: center;
+
+}
+
+.b {
+    background-color: #183661;
+    text-align: center;
+}
+
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 320px;
+    background-color: #183661;
+}
+
+#shoes,
+#underware,
+#pante,
+#tankstop,
+#jumpers,
+#hat {
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#shoes,
+#pante,
+#jumpers {
+    background-color: #f2c119;
+}
+
+#tamanho_imgs_produtos {
+    width: 55%;
+    height: auto;
+    max-height: 45%;
+}
+
+.tipos_produtos {
+    font-weight: bold;
+    font-size: 150%;
+    color: #ffffff;
+}
+
+
+.container6 {
+    background-image: url(images/product_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: block;
+    height: 2100px;
+    width: 100%;
+}
+
+.imag {
+    cursor: pointer;
+}
+
+figcaption {
+    cursor: pointer;
+}
+
+#linhay {
+    border-style: none;
+    background-color: #f2c119;
+    height: 8px;
+    width: 1660px;
+}
+
+#fp {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.featured {
+    margin-bottom: 60px;
+    padding-top: 100px;
+}
+
+.box {
+    background-color: #f2f2f2;
+    height: 390px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.compra {
+    display: flex;
+    height: 1200px;
+    width: 1900px;
+    flex-direction: row;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+
+
+.imag {
+    width: 80%;
+    height: 50%;
+}
+
+.boxcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.lgd {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.legenda {
+    font-size: 26px;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxcanto {
+    padding-left: 80px;
+}
+
+.container6 {
+    margin: 0 auto;
+    justify-items: center;
+}
+
+#see {
+    background-color: #183661;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    width: 260px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#see:hover {
+    background-color: #f2c119;
+    color: #183661;
+    cursor: pointer;
+}
+
+
+#seemore {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 400px;
+}
+
+
+
+.container7 {
+    width: 100%;
+    height: 764px;
+}
+
+#Imagem_inferior_menina_vermelho {
+    width: 100%;
+    height: 100%;
+}
+
+.container8 {
+    display: block;
+    height: 2100px;
+    width: 100%;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+#ln {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.letest {
+    margin-bottom: 60px;
+    padding-top: 100px;
+}
+
+.news {
+    width: 700px;
+}
+
+.linhay2 {
+    margin-bottom: 80px;
+}
+
+.notbox {
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.tgrande {
+    max-width: 100%;
+    text-align: justify;
+    line-height: 50px;
+}
+
+.boxtexto {
+    width: 960px;
+    height: 402px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.titnot {
+    font-weight: bold;
+}
+
+.inferno {
+    display: flex;
+    border-bottom: 2px solid #f2c119;
+}
+
+.like {
+    padding-right: 30px;
+}
+
+.july {
+    border-bottom: 2px solid #f2c119;
+    padding-bottom: 8px;
+}
+
+.newbox {
+    justify-content: space-between;
+    display: flex;
+    height: 280px;
+    align-items: center;
+    max-width: 100%;
+}
+
+.boxemail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.subscribe {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#gmail {
+    width: 920px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+#idioma {
+    background-color: #ecf3fc;
+    border-color: #183661;
+    color: #5c7394;
+    width: 120px;
+    height: 32px;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#open {
+    align-content: center;
+    padding-left: 20px;
+}
+
+.linha3 {
+    max-width: 100%;
+}
+
+.bsubscribe {
+    width: 250px;
+    height: 55px;
+    background-color: #183661;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 35px;
+    font-size: 26px;
+}
+
+.bsubscribe:hover {
+    background-color: #f2c119;
+    color: #183661;
+    cursor: pointer;
+}
+
+.container9 {
+    background-color: #183661;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caixab {
+    background-color: #ffffff;
+    height: 210px;
+    width: 500px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #183661;
+    box-shadow: 4px 4px 11px rgb(88, 83, 83);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -125px;
+    cursor: pointer;
+}
+
+.txt img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.conttxt {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 500px;
+    padding: 140px;
+    color: #ffffff;
+}
+
+.boxfim {
+    width: 350px;
+    height: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.tt {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#imagem_carrinho {
+    margin-left: 40px;
+}
+
+#descricao {
+    line-height: 50px;
+    font-size: 25px;
+    width: 310px;
+    height: 400px;
+}
+
+.rodape {
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#botao1 {
+    border-style: none;
+    background-color: #183661;
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+}
