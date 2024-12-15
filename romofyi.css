@@ -76,7 +76,7 @@ ul {
     width: 56px;
     height: 60px;
     padding-bottom: 3px;
-    padding-left: 3px;
+    margin-left: 5px;
 }
 
 #call {
