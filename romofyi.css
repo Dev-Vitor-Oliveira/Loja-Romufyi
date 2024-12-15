@@ -74,7 +74,8 @@ ul {
 
 .central4 {
     width: 56px;
-    height: 61px;
+    height: 60px;
+    padding-bottom: 3px;
 }
 
 #call {
