@@ -570,11 +570,11 @@ figcaption {
     font-size: 50px;
 }
 
-#gmail {
+#bar_mail{
     width: 920px;
     height: 70px;
     border-radius: 40px;
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 30px;
 }
 
