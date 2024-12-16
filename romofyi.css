@@ -156,13 +156,14 @@ ul {
     color: #ffffff;
     font-size: 27px;
     max-width: 100%;
-    cursor: pointer;
+    
 }
 
 .linha3 {
     display: flex;
     margin-left: 80px;
     height: 115px;
+    cursor: pointer;
 }
 
 .yellow {
@@ -173,6 +174,7 @@ ul {
     padding: 35px;
     align-items: center;
     align-content: center;
+    cursor: pointer;
 }
 
 #pesquisa {
@@ -182,20 +184,21 @@ ul {
     height: 50px;
     font-size: 23px;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .search-container {
     position: relative;
     margin-right: 120px;
+    display: flex;
+    align-items: center;
 }
 
 .search-container .icon {
     position: absolute;
     left: 450px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-    color: #888;
+    padding-top: 1px;
+    cursor: pointer;
 }
 .container4 {
     background-image: url(images/banner.jpg);
